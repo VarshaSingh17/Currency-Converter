@@ -87,14 +87,56 @@ form input{
 }
 
 /* ***** Breakpoint ***** */
+@media(max-width: 991px){
+    .container{
+        width: 450px;
+    }
+    h2{
+        font-size: 30px;   
+        text-align: center;
+        line-height: 3rem;
+        margin: 8rem 0 5rem 0;
+    }
+    .btn{
+        font-size: 26px;
+    }
+}
+@media (max-width: 768px){
+    .container{
+        width: 400px;
+    }
+    h2{
+        font-size: 25px;   
+        text-align: center;
+        line-height: 3rem;
+        margin: 5rem 0 2rem 0;
+    }
+    .btn{
+        font-size: 24px;
+    }
 
+}
+@media (max-width: 617px){
+    .container{
+        width: 300px;
+    }
+    h2{
+        font-size: 21px;   
+        text-align: center;
+        line-height: 3rem;
+        margin-top: 1.2rem;
+    }
+
+}
 @media (max-width: 450px){
     .container{
-        width: 280px;
+        width: 290px;
     }
+    
     h2{
         font-size: 19px;   
         text-align: center;
         line-height: 3rem;
+        margin-top: 1.2rem;
     }
 }
