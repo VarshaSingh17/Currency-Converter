@@ -44,12 +44,7 @@ const updateExchangeRate = async ()=>{
     let rate = data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()];
     
     let finalAmount = amtVal * rate;
-    if(amtVal==="a"){
-        msg.innerText = "INVALID INPUT";
-        msg.style.backgroundColor="red";
-        return;
-
-    }
+    
     msg.innerText = `${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
 };
 
