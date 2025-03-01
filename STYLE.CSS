@@ -86,4 +86,15 @@ form input{
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 2);
 }
 
+/* ***** Breakpoint ***** */
 
+@media (max-width: 450px){
+    .container{
+        width: 280px;
+    }
+    h2{
+        font-size: 19px;   
+        text-align: center;
+        line-height: 3rem;
+    }
+}
